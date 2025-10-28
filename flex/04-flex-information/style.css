@@ -15,6 +15,14 @@ body {
   gap: 52px
 }
 
+.plant {
+  display: flex;
+  flex-flow: column wrap;
+  flex-basis: 200px;
+  align-items: center;
+  text-align: center;
+}
+
 img {
   width: 100px;
   height: 100px;
