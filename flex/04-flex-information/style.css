@@ -9,6 +9,12 @@ body {
   gap: 32px
 }
 
+.plantgroup {
+  display: flex;
+  justify-content: center;
+  gap: 52px
+}
+
 img {
   width: 100px;
   height: 100px;
