@@ -10,6 +10,16 @@ body {
   justify-content: space-between;
 }
 
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+
 img {
   width: 600px;
 }
