@@ -8,12 +8,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
 }
 
 .header, .footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
 }
 
 .content {
@@ -43,6 +44,9 @@ input {
 ul {
   list-style-type: none;
   display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
 }
 
 a {
